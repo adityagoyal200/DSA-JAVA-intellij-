@@ -6,7 +6,7 @@ public class Arrlist {
       arr.add(12);
         arr.add(24);
         arr.add(36);
-        arr.add(48);
+        arr.add(12);
         arr.add(60);
         System.out.println(arr);
     }
