@@ -16,7 +16,7 @@ public class Main {
             for(int cols=0;cols<matrix[rows].length;cols++){
                 System.out.print(matrix[rows][cols] + " ");
             }
-            System.out.println();
+                    System.out.println(); //prints the matrix
         }
     }
 }
