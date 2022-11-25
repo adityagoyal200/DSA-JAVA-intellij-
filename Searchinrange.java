@@ -9,8 +9,8 @@ public class Searchinrange {
             array[i] = sc.nextInt();
         }
         System.out.println("the entered array is: ");
-        for (int j : array) {
-            System.out.print(j + " ");
+        for (int all : array) {
+            System.out.print(all + " ");
         }
         System.out.println();
         if (linearSearch(array, 1,array.length,5) > -1) {
