@@ -30,4 +30,16 @@ public class Linear{
         System.out.println("not found");
         return -1;
     }
+    static int[] binarysort(int[]arr,int target ){
+        int mid=arr.length-arr[0]/2;
+        for(int i=0;i<arr.length;i++){
+            for(int j=i+1;j<arr.length;j++){
+                if(arr[i]<arr[i+1]){
+
+                }
+            }
+        }
+        return arr;
+
+    }
 }
