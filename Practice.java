@@ -30,9 +30,9 @@ import java.util.Scanner;
             if(array.length==0){
                 return -1;
             }
-            for(int i=0;i<array.length;i++) {
-                if (array[i] == target) {
-                    return i;
+            for(int j=0;j<array.length;j++) {
+                if (array[j] == target) {
+                    return j;
                 }
             }
             return -1;
