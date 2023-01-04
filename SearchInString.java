@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class SearchInString {
-    public static void main(String[] args) {
+    public static void main(String[] args){
         String name="aditya";
         char target='a';
         System.out.println(search(name,target));
