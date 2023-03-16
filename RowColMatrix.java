@@ -1,9 +1,11 @@
+import java.util.Arrays;
+
 public class RowColMatrix {
     public static void main(String[] args) {
         int[][] matrix={
                 {1,2,3},{4,5,6},{7,8,9}
         };
-        System.out.println(search(matrix,5));
+        System.out.println(Arrays.toString(search(matrix,9)));
     }
     public static int[] search(int[][]arr, int target){
         int r=0,c=arr.length-1;
