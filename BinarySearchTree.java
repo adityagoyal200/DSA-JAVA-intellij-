@@ -57,7 +57,7 @@ public class BinarySearchTree {
         if (node == null) {
             return null;
         }
-        else{
+        else{ //tara maa ftw
             if(value < node.data) {
                 node.left = deleteNode(node.left, value);
             }
@@ -87,8 +87,8 @@ public class BinarySearchTree {
     public void inorderTraversal(Node node) {
         if (root == null) {
             System.out.println("Tree is empty");
-            return;
-        } else {
+        }
+        else {
             if (node.left != null) {
                 inorderTraversal(node.left);
             }
