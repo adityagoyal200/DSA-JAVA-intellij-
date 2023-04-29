@@ -10,6 +10,21 @@ public class Arrlist {
         arr.add(60);
 	arr.add(72);
         System.out.println(arr);
+
+        String str = "Hello World!";
+        System.out.println(str);
+        updateString(str);
+        System.out.println(str);
+
+        int x=5;
+        int y=10;
+        int z=x++*y--;
+        System.out.println("x = "+x);
+        System.out.println("y = "+y);
+        System.out.println("z = "+z);
+    }
+    private static void updateString(String str){
+        str+=" CollPoll";
     }
 }
 //class Graph {
