@@ -4,7 +4,7 @@ class Shape {
     String colour;
     public void AreaOfCircle(int r ){
         double area;
-        area= 3.14*r*r;
+        area= 3.14*(r*r);
         System.out.println("area of circle is :"+area);
     }
     public void colours(){
