@@ -15,12 +15,12 @@ public class BooksAllcation {
         int stud = 1;
         int currPages = 0;
 
-        for(int i =0;i<len;i++){
-            if(currPages + books[i] <= pages){
-                currPages += books[i];
+        for (int book : books) {
+            if (currPages + book <= pages) {
+                currPages += book;
             } else {
                 stud++;
-                currPages = books[i];
+                currPages = book;
             }
         }
 
